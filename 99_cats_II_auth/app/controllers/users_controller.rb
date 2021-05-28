@@ -1,4 +1,4 @@
-class CatsController < ApplicationController
+class UserController < ApplicationController
 #   def index
 #     @cats = Cat.all
 #     render :index
