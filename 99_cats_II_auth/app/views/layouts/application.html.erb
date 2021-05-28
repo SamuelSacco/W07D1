@@ -11,12 +11,12 @@
   <body>
     <% if logged_in? %>
       <h2>Welcome <%= current_user.username %>!</h2>
-      <form action="new_session_url" method="post">
+      <form action="new_session_url" method="get">
         <button>logout</button>
       </form>
     <% else %>
 
-      <form action="new_session_url" method="post">
+      <form action="new_session_url" method="get">
         <button>login</button>
       </form>
 
