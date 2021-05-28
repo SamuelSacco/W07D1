@@ -7,6 +7,8 @@ Rails.application.routes.draw do
       post :deny
     end
   end
+  # resources for session
+  # resources for users
 
   root to: redirect('/cats')
 end
